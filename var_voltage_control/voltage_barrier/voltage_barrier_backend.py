@@ -1,4 +1,4 @@
-from .voltage_barrier_registry import Voltage_Barrier
+from var_voltage_control.voltage_barrier.voltage_barrier_registry import Voltage_Barrier
 
 
 

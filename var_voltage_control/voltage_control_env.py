@@ -7,8 +7,8 @@ import yaml
 import copy 
 import os
 from collections import namedtuple
-from .pf_res_plot import pf_res_plotly
-from .voltage_barrier.voltage_barrier_backend import VoltageBarrier
+from var_voltage_control.pf_res_plot import pf_res_plotly
+from var_voltage_control.voltage_barrier.voltage_barrier_backend import VoltageBarrier
 
 
 
