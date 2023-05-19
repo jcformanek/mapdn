@@ -1,4 +1,4 @@
-from .multiagentenv import MultiAgentEnv
+from var_voltage_control.multiagentenv import MultiAgentEnv
 import numpy as np
 import pandapower as pp
 from pandapower import ppException
