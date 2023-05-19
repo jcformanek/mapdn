@@ -3,8 +3,6 @@ import sys
 import numpy as np
 import math
 import six
-from gym import error
-
 
 
 try:
@@ -50,11 +48,7 @@ def get_display(spec):
     elif isinstance(spec, six.string_types):
         return pyglet.canvas.Display(spec)
     else:
-        raise error.Error(
-            "Invalid display specification: {}. (Must be a string like :0 or None.)".format(
-                spec
-            )
-        )
+        raise ImportError("Some display error.")
 
 
 class Viewer(object):
