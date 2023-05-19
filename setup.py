@@ -16,6 +16,6 @@ setup(
         "pandapower",
         "PyYAML",
         "matplotlib",
-        "numba=0.51.2"
+        "numba==0.51.2"
         ],
     )
